@@ -8,6 +8,8 @@ name: blog.marlas.pl
 # Short bio or description (displayed in the header)
 description: Ogrodnik Internetu
 
+author: Marcin Lasak
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 #avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
