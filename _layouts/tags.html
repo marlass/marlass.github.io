@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<h2>Artykuły z tagiem: "{{ page.tag }}"</h2>
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+{% unless site.tags.[page.tag] | size > 0 %}
+  <p>Brak artykułów pod tym tagiem.</p>
+{% endunless %}
+
+<div class="posts">
+    {% for post in site.tags.[page.tag] %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Czytaj więcej</a>
+    </article>
+    {% endfor %}
+</div>
