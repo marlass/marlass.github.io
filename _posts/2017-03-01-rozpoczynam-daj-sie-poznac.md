@@ -30,6 +30,6 @@ Projekt będzie realizowany w React.js i Redux po stronie frontu. Backend planuj
 
 Uwielbiam zawsze przy rozpoczynaniu projektu wybierać sobie stos technologiczny, konfigurować wszystkie narzędzia, ale w tym projekcie chcę jak najwięcej czasu spędzić na rzeczywistym programowaniu i pracy z React.js. Jestem trochę "uzależniony" od narzędzi i ten projekt będzie takim lekkim detoksem od konfiguracji. Może po zakończeniu wyzwania napiszę parę wpisów o konfiguracji webpack i docker, ale teraz zamierzam mieć działający pierwszy widok w przyszłym tygodniu.
 
-Przy tym projekcie chcę również podszliwować pisanie testów i spróbuję przekonać się do TDD. Zobaczę jak w moim przypadku działa te podejście, czy rzeczywiście oprogramowanie będzie miało lepszą architekturę i będzie bardziej stabilne.
+Przy tym projekcie chcę również podszlifować pisanie testów i spróbuję przekonać się do TDD. Zobaczę jak w moim przypadku działa te podejście, czy rzeczywiście oprogramowanie będzie miało lepszą architekturę i będzie bardziej stabilne.
 
 Plany są duże i zobaczymy, czy udaje się je zrealizować. W następnym poście myślę, że pojawi się już trochę kodu i opowiem trochę więcej o środowisku pracy.
