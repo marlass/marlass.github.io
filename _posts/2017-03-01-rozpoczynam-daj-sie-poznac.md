@@ -16,7 +16,7 @@ Więcej o [Daj się poznać](http://devstyle.pl/daj-sie-poznac/)
 
 ## Motywacja
 
-Od jakiegoś czasu chciałem wykonać aplikację, którą będę teraz realizować w ramach tego konkursu. Dodatkowo ostatnio interesuję się React.js i chciałem zrealizować projekt w tej technologii. Spodobała mi się idea tego konkursu i postanowiłem w końcu zabrać się za tę aplikację. Dodatkowe wymaganie pisania o projekcie na blogu pozwoli mi również podszliwować moje umiejętności pisarskie i jednocześnie "Dam się poznać" w Internecie. Liczę na to, że to wyzwanie będzie motywować mnie do regularnej pracy nad projektem i dotrwam do samego końca.
+Od jakiegoś czasu chciałem wykonać aplikację, którą będę teraz realizować w ramach tego konkursu. Dodatkowo ostatnio interesuję się React.js i chciałem zrealizować projekt w tej technologii. Spodobała mi się idea tego konkursu i postanowiłem w końcu zabrać się za tę aplikację. Dodatkowe wymaganie pisania o projekcie na blogu pozwoli mi również podszlifować moje umiejętności pisarskie i jednocześnie "Dam się poznać" w Internecie. Liczę na to, że to wyzwanie będzie motywować mnie do regularnej pracy nad projektem i dotrwam do samego końca.
 
 ## Projekt
 
