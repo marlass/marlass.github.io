@@ -16,7 +16,7 @@ Więcej o [Daj się poznać](http://devstyle.pl/daj-sie-poznac/)
 
 ## Motywacja
 
-Od jakiegoś czasu chciałem wykonać aplikację, którą będę teraz realizować w ramach tego konkursu. Dodatkowo ostatnio interesuję się React.js i chciałem zrealizować projekt w tej technologii. Spodobała mi się idea tego konkursu i postanowiłem w końcu zabrać się za tę aplikację. Dodatkowe wymaganie pisania o projekcie na blogu pozwoli mi również podszliwować moje umiejętności pisarskie i jednocześnie "Dam się poznać" w Internecie. Liczę na to, że to wyzwanie będzie motywować mnie do regularnej pracy nad projektem i dotrwam do samego końca.
+Od jakiegoś czasu chciałem wykonać aplikację, którą będę teraz realizować w ramach tego konkursu. Dodatkowo ostatnio interesuję się React.js i chciałem zrealizować projekt w tej technologii. Spodobała mi się idea tego konkursu i postanowiłem w końcu zabrać się za tę aplikację. Dodatkowe wymaganie pisania o projekcie na blogu pozwoli mi również podszlifować moje umiejętności pisarskie i jednocześnie "Dam się poznać" w Internecie. Liczę na to, że to wyzwanie będzie motywować mnie do regularnej pracy nad projektem i dotrwam do samego końca.
 
 ## Projekt
 
@@ -30,6 +30,6 @@ Projekt będzie realizowany w React.js i Redux po stronie frontu. Backend planuj
 
 Uwielbiam zawsze przy rozpoczynaniu projektu wybierać sobie stos technologiczny, konfigurować wszystkie narzędzia, ale w tym projekcie chcę jak najwięcej czasu spędzić na rzeczywistym programowaniu i pracy z React.js. Jestem trochę "uzależniony" od narzędzi i ten projekt będzie takim lekkim detoksem od konfiguracji. Może po zakończeniu wyzwania napiszę parę wpisów o konfiguracji webpack i docker, ale teraz zamierzam mieć działający pierwszy widok w przyszłym tygodniu.
 
-Przy tym projekcie chcę również podszliwować pisanie testów i spróbuję przekonać się do TDD. Zobaczę jak w moim przypadku działa te podejście, czy rzeczywiście oprogramowanie będzie miało lepszą architekturę i będzie bardziej stabilne.
+Przy tym projekcie chcę również podszlifować pisanie testów i spróbuję przekonać się do TDD. Zobaczę jak w moim przypadku działa te podejście, czy rzeczywiście oprogramowanie będzie miało lepszą architekturę i będzie bardziej stabilne.
 
 Plany są duże i zobaczymy, czy udaje się je zrealizować. W następnym poście myślę, że pojawi się już trochę kodu i opowiem trochę więcej o środowisku pracy.
