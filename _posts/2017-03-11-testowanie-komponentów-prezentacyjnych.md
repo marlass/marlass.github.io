@@ -14,7 +14,7 @@ W projekcie mam skonfigurowany framework do testów [mocha](https://mochajs.org/
 
 Pliki testów przechowuję w folderze `/app/tests` z rozszerzeniem `-test.jsx`. Poniżej zamieszczam kod testu do komponentu wyświetlania pojedynczego todo.
 
-```
+```javascript
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
