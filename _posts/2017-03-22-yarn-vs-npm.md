@@ -17,6 +17,7 @@ Yarn ma jeszcze jedną drobną nowość, której brakuje w npm. Dzięki polecen
 Start z Yarn jest bardzo prosty. Instalujemy klienta zgodnie z wskazówkami na [stronie](https://yarnpkg.com/en/docs/install) i możemy zacząć korzystać.
 
 Poniżej lista najważniejszych komend npm i ich odpowiedników w Yarn:
+
 | npm                            | Yarn                   |
 |--------------------------------|------------------------|
 | npm install                    | yarn                   |
