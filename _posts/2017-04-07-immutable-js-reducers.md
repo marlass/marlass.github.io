@@ -10,7 +10,7 @@ Przy ostatnich pracach nad aplikacją i pisaniu reduktorów nie podobało mi si�
 
 Zaczynamy od instalacji, wystarczy `npm install immutable --save` i możemy używać Immutable.js w Redux.
 
-Potem tylko `import Immutable from 'immutable` i można podpiąć zamiast pustego obiektu JS do domyślnego stanu reduktora pustą niemodyfikowalną mapę: `state = Immutable.Map({})`.
+Potem tylko `import Immutable from 'immutable'` i można podpiąć zamiast pustego obiektu JS do domyślnego stanu reduktora pustą niemodyfikowalną mapę: `state = Immutable.Map({})`.
 
 Główne metody, które musimy poznać do Map to: `set()`, `get()` i `delete()`. Za pomocą funkcji `set()` ustawiamy wartość atrybutu lub tworzymy nowy atrybut z wartością. Żeby odczytać z mapy wartość wykorzystujemy funkcję `get()` do której przekazujemy klucz. Do usuwania atrybutu służy polecenie `delete()`. Z tymi informacjami możemy zabierać się za przerobienie naszego reduktora.
 
