@@ -18,12 +18,12 @@ Za co lubię VS Code:
 - wbudowany Debugger JS
 - świetna integracja z GIT
 
-Oprócz wyżej wymienionych zalet bardzo dobrze działa dzielenie edytora na wiele grup zakładek, wbudowany Emmet, łatwość konfiguracji i paletę komend. Te rzeczy są wykorzystywane wielokrotnie każdego dnia i działają bez zarzutu i bardzo ułatwiają pracę. Przez to, że edytor jest pisany w JS mogę w przyszłości wesprzeć jego rozwój, czy stworzyć potrzebny plugin. A co do plugin to naprawdę ciężko wpaść na pomysł pluginu, bo społeczność tworzy je bardzo szybko i większosć z nich jest bardzo dobrej jakości. Jeśli wchodzi jakaś nowa biblioteka, czy framework to Visual Studio Code ma wcześnie dostępny plugin jako jeden z niewielu edytorów.
+Oprócz wyżej wymienionych zalet bardzo dobrze działa dzielenie edytora na wiele grup zakładek, wbudowany Emmet, łatwość konfiguracji i paletę komend. Te rzeczy są wykorzystywane wielokrotnie każdego dnia i działają bez zarzutu, i bardzo ułatwiają pracę. Przez to, że edytor jest pisany w JS mogę w przyszłości wesprzeć jego rozwój, czy stworzyć potrzebny plugin. A co do pluginów - to naprawdę ciężko wpaść na pomysł pluginu, bo społeczność tworzy je bardzo szybko i większosć z nich jest bardzo dobrej jakości. Jeśli wchodzi jakaś nowa biblioteka czy framework to Visual Studio Code ma wcześnie dostępny plugin jako jeden z niewielu edytorów.
 
 A jeśli mowa o pluginach to mogę wspomnieć kilka, które są warte uwagi i mi się bardzo przydały:
 
 - pluginy do wsparcia języków: PostCSS syntax, Docker, Handlebars
-- Settings Sync - mój plugin no. 1 - to dzęki niemu wszystkie moje urządzenia zawsze mają te same wersje rozszerzeń i ustawienia są przenoszone między edytorami. Dzięki niemu instalacja edytora z wszystkimi ustawieniami i rozszerzeniami zajmuje tylko 5 minut.
+- Settings Sync - mój plugin no. 1 - to dzięki niemu wszystkie moje urządzenia zawsze mają te same wersje rozszerzeń i ustawienia są przenoszone między edytorami. Dzięki niemu instalacja edytora z wszystkimi ustawieniami i rozszerzeniami zajmuje tylko 5 minut.
 - markdownlint
 - vscode-icons - ikony dla różnych plików pozwalają naprawdę sprawnie poruszać się w drzewie katalogów
 - SVG Viewer
@@ -32,4 +32,4 @@ A jeśli mowa o pluginach to mogę wspomnieć kilka, które są warte uwagi i mi
 
 Chcę jeszcze wspomnieć o powodzie, dla którego naprawdę polubiłem ten edytor - integracja z GIT. Dzięki temu byłem w stanie wyrobić w sobie praktykę częstych commitów, pracowania na osobnych branchach dla zadań oraz bardzo prosto synchronizowałem wszystko z centralnymi serwerami. Jedynej rzeczy, której mi tutaj brakuje to dobry mechanizm obsługi konfliktów, ale do ręcznej pracy na konfliktach da się przyzwyczaić. W końcu nie ma ich tak dużo.
 
-Ja z mojej stronę chcę bardzo polecić Visual Studio Code. Jeśli piszecie dużo Javascriptu i frontendowych rzeczy to jest to edytor stworzony do tych potrzeb. Dodatkowo polecem wspominaną integrację z GIT oraz mnóstwo dobrej jakości pluginów do najróżniejszych potrzeb.
+Ja z mojej stronę chcę bardzo polecić Visual Studio Code. Jeśli piszecie dużo Javascriptu i frontendowych rzeczy to jest to edytor stworzony pod te potrzeby. Dodatkowo polecem wspominaną integrację z GIT oraz mnóstwo dobrej jakości pluginów do najróżniejszych potrzeb.
