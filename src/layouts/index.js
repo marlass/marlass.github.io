@@ -7,8 +7,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './style.scss'
 
-import "prismjs/themes/prism-okaidia.css";
-
+import 'prismjs/themes/prism-okaidia.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -18,8 +17,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    >
-    </Helmet>
+    ></Helmet>
     <Header />
     <div id="main" role="main" className="container">
       {children()}

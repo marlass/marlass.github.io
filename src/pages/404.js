@@ -1,6 +1,6 @@
-import Link from 'gatsby-link';
-import React from 'react';
-import img404 from '../assets/404.jpg';
+import Link from 'gatsby-link'
+import React from 'react'
+import img404 from '../assets/404.jpg'
 
 const NotFoundPage = () => (
   <article class="page">
@@ -24,6 +24,6 @@ const NotFoundPage = () => (
       </p>
     </div>
   </article>
-);
+)
 
-export default NotFoundPage;
+export default NotFoundPage

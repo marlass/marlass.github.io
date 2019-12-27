@@ -1,29 +1,35 @@
-import React from "react";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 export default function Index({ data }) {
-  const { edges: posts } = data.allMarkdownRemark;
+  const { edges: posts } = data.allMarkdownRemark
   return (
     <React.Fragment>
-        <h2>Artykuły z tagiem: "dajsiepoznac2017"</h2>
-        <div className="posts">
+      <h2>Artykuły z tagiem: "dajsiepoznac2017"</h2>
+      <div className="posts">
         {posts
-            .filter(post => post.node.frontmatter.title.length > 0)
-            .map(({ node: post }) => {
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
             return (
-                <article className="post" key={post.id}>
+              <article className="post" key={post.id}>
                 <h1>
-                    <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                  <Link to={post.frontmatter.path}>
+                    {post.frontmatter.title}
+                  </Link>
                 </h1>
-                <div className="entry"><p>{post.excerpt}</p></div>
-                <Link to={post.frontmatter.path} className="read-more">Czytaj więcej</Link>
-                </article>
-            );
-            })}
-        </div>
+                <div className="entry">
+                  <p>{post.excerpt}</p>
+                </div>
+                <Link to={post.frontmatter.path} className="read-more">
+                  Czytaj więcej
+                </Link>
+              </article>
+            )
+          })}
+      </div>
     </React.Fragment>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -42,4 +48,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
