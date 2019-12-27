@@ -17,7 +17,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/content/posts`,
-        name: 'posts'
+        name: 'posts',
       },
     },
     {
@@ -35,11 +35,11 @@ module.exports = {
               // you may use this to prevent Prism from re-processing syntax.
               // This is an uncommon use-case though;
               // If you're unsure, it's best to use the default value.
-              classPrefix: "language-",
+              classPrefix: 'language-',
             },
           },
         ],
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -52,7 +52,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       resolve: `gatsby-plugin-feed`,
@@ -77,7 +77,7 @@ module.exports = {
                   description: edge.node.excerpt,
                   url: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
                   guid: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 });
               });
             },
@@ -101,7 +101,7 @@ module.exports = {
                 }
               }
             `,
-            output: "/feed.xml",
+            output: '/feed.xml',
           },
         ],
       },
