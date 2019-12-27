@@ -1,13 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-
-import metadata from './../../metadata'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import './style.scss'
-
 import 'prismjs/themes/prism-okaidia.css'
+import PropTypes from 'prop-types'
+import React from 'react'
+import Helmet from 'react-helmet'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import metadata from './../../metadata'
+import './style.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -20,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
     ></Helmet>
     <Header />
     <div id="main" role="main" className="container">
-      {children()}
+      {children}
     </div>
     <Footer />
   </div>

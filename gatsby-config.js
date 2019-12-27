@@ -11,7 +11,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-next`,
     `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-source-filesystem',

@@ -1,6 +1,7 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import ReactDisqusComments from 'react-disqus-comments'
+import Helmet from 'react-helmet'
+import TemplateWrapper from '../layouts'
 import settings from './../../settings'
 
 export default function Template({
@@ -8,25 +9,30 @@ export default function Template({
 }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   return (
-    <article className="post">
-      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
-      <h1>{post.frontmatter.title}</h1>
-      <div className="entry" dangerouslySetInnerHTML={{ __html: post.html }} />
-      <div className="date">
-        Opublikowano:{' '}
-        {new Date(post.frontmatter.date).toLocaleDateString('de-DE', {
-          day: '2-digit',
-          month: '2-digit',
-          year: 'numeric',
-        })}
-      </div>
-      <div className="comments">
-        <ReactDisqusComments
-          shortname={settings.disqus}
-          title={`${post.frontmatter.title}`}
+    <TemplateWrapper>
+      <article className="post">
+        <Helmet title={`blog.marlas.pl - ${post.frontmatter.title}`} />
+        <h1>{post.frontmatter.title}</h1>
+        <div
+          className="entry"
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
-      </div>
-    </article>
+        <div className="date">
+          Opublikowano:{' '}
+          {new Date(post.frontmatter.date).toLocaleDateString('de-DE', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+          })}
+        </div>
+        <div className="comments">
+          <ReactDisqusComments
+            shortname={settings.disqus}
+            title={`${post.frontmatter.title}`}
+          />
+        </div>
+      </article>
+    </TemplateWrapper>
   )
 }
 

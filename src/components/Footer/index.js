@@ -1,7 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Icons from './../Icons'
 import metadata from './../../../metadata'
+import Icons from './../Icons'
 
 const Footer = () => (
   <div className="wrapper-footer">
