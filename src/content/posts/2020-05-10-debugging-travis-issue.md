@@ -14,7 +14,7 @@ Before I go to the real issue let me shortly describe the project background. Mo
 The story starts with this image
 ![Failing Travis job for latest commit](debugging-travis-issue/commits.JPG)
 
-Suddenly Travis jos failed for the change that shouldn't break anything. It was only the library version bump in maintenance branch. Everything should be okay.
+Suddenly Travis job failed for the change that shouldn't break anything. It was only the library version bump in maintenance branch. Everything should be okay.
 
 Let's see what failed in this job.
 
